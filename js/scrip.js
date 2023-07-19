@@ -11,16 +11,16 @@ function addToCart() {
   cartItems = [];
 
   if (product1Qty > 0) {
-    cartItems.push({ name: 'Producto 1', price: 2000000, quantity: product1Qty });
+    cartItems.push({ name: 'Iphone 11 Reacondiconado', price: 2000000, quantity: product1Qty });
   }
   if (product2Qty > 0) {
-    cartItems.push({ name: 'Producto 2', price: 2500000, quantity: product2Qty });
+    cartItems.push({ name: 'Iphone 11', price: 2500000, quantity: product2Qty });
   }
   if (product3Qty > 0) {
-    cartItems.push({ name: 'Producto 3', price: 3800000, quantity: product3Qty });
+    cartItems.push({ name: 'Iphone 11 promax', price: 3800000, quantity: product3Qty });
   }
   if (product4Qty > 0) {
-    cartItems.push({ name: 'Producto 4', price: 6500000, quantity: product4Qty });
+    cartItems.push({ name: 'Iphone 13', price: 6500000, quantity: product4Qty });
   }
 
   showCart();
