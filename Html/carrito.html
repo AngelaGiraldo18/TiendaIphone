@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+  <h1>Carrito de Compras</h1>
+  <form id="productForm">
+    <div class="product1" id="Productos"> <img src="/image/iphone1.jpeg" alt="iphone 11">
+    <label>Iphone 11 ($2.500.000):</label>
+    <input type="number" id="product1" name="product1" value="0">
+    </div>
+    <br>
+    <div class="product2" id="Productos"> <img src="/image/iphone2.jpeg" alt="iphone 11">
+    <label>Iphone 11 ($2.800.000):</label>
+    <input type="number" id="product2" name="product2" value="0">
+    </div>
+    <br>
+    <div class="product3" id="Productos"> <img src="/image/iphone3.jpeg" alt="iphone 11">
+    <label for="product3">Iphone 11 promax ($3.800.000):</label>
+    <input type="number" id="product3" name="product3" value="0">
+    </div>
+    <br>
+    <button class="btnA" type="button" onclick="addToCart()">Agregar al carrito</button>
+  </form>
+
+  <div id="cart">
+    <h2>Carrito:</h2>
+    <ul id="cartList"></ul>
+    <p id="total">Total a pagar: $0</p>
+    <button type="button" onclick="checkout()">Pagar</button>
+  </div>
+
+  <script src="/js/scrip.js"></script>
+</body>
+</html>

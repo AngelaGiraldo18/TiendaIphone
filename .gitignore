@@ -1,0 +1,90 @@
+# css/   (para ignorar los archivos)
+
+
+
+# #se hacen los comentarios con el #
+
+# git init
+
+# user name (para tener el nombre de la cuenta de  git hub)
+# o user. user name
+
+# git commit -m"Estructura del proyecto" (agrega un mensaje)
+
+# git log (muetra el autor el mensaje, y todos los commints)
+
+# para saber las ramas 
+# git brach
+
+# para cambiar el nombre de la rama master 
+# git branch -M main 
+ 
+#git status on branch main
+
+# para verificar tambien
+# git brach
+
+# para agregar
+# git add remote origin add origin (enlace repo) 
+
+# si se le olvida agregar un archivo al commit 
+# primero bver que estan en verde 
+
+# tener en cuenta como y cuando hacer el commir 
+# git -commit --amend --no-edit
+
+
+# crea para verificar
+# git log 
+
+
+# trabajar sobre ramas como hacerlo:
+
+
+# git brach
+
+# git brach proyecto 
+
+
+# git brach 
+
+# para pasar en la rama y seguida del nombre 
+# git checkout producto
+
+# para eliminar la rama 
+
+# git branch -d (nombre de la rama)
+
+# para crear 
+# git checkout -b (nombre de la rama)
+
+
+# git brach 
+
+# git add .
+  
+# git commit -m "agregada la funcion productos"
+
+# gt status 
+
+# git log (para minar los commit hechos)
+
+
+
+# crear rama categoria 
+# agregamos 3 categorias mas a la rama categoria 
+
+# parar en main y desde ahi creamos las ramas.
+
+
+
+# git checkout main 
+
+# Para unir las ramas 
+# git merge y ( y el nombre de la rama)
+
+
+# carrito de compras en la rama crear rama carrito
+
+# cada que le de click en un producto que se agregue
+#  al carrito y no conectar a base de datos 
