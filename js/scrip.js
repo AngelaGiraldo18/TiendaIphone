@@ -4,18 +4,23 @@ function addToCart() {
   const product1Qty = parseInt(document.getElementById('product1').value);
   const product2Qty = parseInt(document.getElementById('product2').value);
   const product3Qty = parseInt(document.getElementById('product3').value);
+  const product4Qty = parseInt(document.getElementById('product4').value);
+
 
   // Clear previous items
   cartItems = [];
 
   if (product1Qty > 0) {
-    cartItems.push({ name: 'Producto 1', price: 2500000, quantity: product1Qty });
+    cartItems.push({ name: 'Producto 1', price: 2000000, quantity: product1Qty });
   }
   if (product2Qty > 0) {
-    cartItems.push({ name: 'Producto 2', price: 2800000, quantity: product2Qty });
+    cartItems.push({ name: 'Producto 2', price: 2500000, quantity: product2Qty });
   }
   if (product3Qty > 0) {
     cartItems.push({ name: 'Producto 3', price: 3800000, quantity: product3Qty });
+  }
+  if (product4Qty > 0) {
+    cartItems.push({ name: 'Producto 4', price: 6500000, quantity: product4Qty });
   }
 
   showCart();

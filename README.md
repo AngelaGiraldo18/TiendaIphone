@@ -7,6 +7,6 @@ Este es un proyecto donde se reforzaran los temas de git y github, para la ficha
 *Github
 
 ## lenguajes 
-*
-*
-*
+*Html 
+*Css
+*JavaScript 
